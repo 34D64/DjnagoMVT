@@ -1,0 +1,21 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Gamepad</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+
+<body>
+    <table>
+        {{form.as_table}}
+    </table>
+    <a href="{% url 'music' %}">Go to music 2</a>
+    <button type="submit">submit me</button>
+</body>
+
+</html>
